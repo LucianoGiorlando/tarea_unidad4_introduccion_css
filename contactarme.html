@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contáctame</title>
+</head>
+<body>
+    <form action="">
+        <p>
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" name="nombre" id="nombre" />
+        </p>
+
+        <label for="sexo">Sexo</label>
+        <ul>
+            <li>
+                <label for="sexo">Hombre</label>
+                <input type="radio" name="sexo" value="hombre" />
+            </li>
+            <li>
+                <label for="sexo">Mujer</label>
+                <input type="radio" name="sexo" value="mujer" />
+            </li>
+        </ul>
+
+        <p>
+            <label for="nac">Fecha de nacimiento</label>
+            <input type="date" name="nac" />
+        </p>
+        <p>
+            <label for="email">Correo electrónico</label>
+            <input type="email" name="email" placeholder="ejemplo@maildeprueba" />
+        </p>
+        <p>
+            <label for="teléfono">Teléfono</label>
+            <input type="number" name="teléfono" />
+        </p>
+        <p>
+            <label for="">Nivel de ingles</label>
+            <input type="range" min="1" max="5" />
+        </p>
+
+        <label for="">Lenguajes trabajados</label>
+        <ul>
+            <li>
+                <label for="bailar">Javascript</label>
+                <input type="checkbox" name="" value="javascript" id="javascript" />
+            </li>
+            <li>
+                <label for="cantar">Python</label>
+                <input type="checkbox" name="" value="python" id="python" />
+            </li>
+            <li>
+                <label for="nadar">SQL</label>
+                <input type="checkbox" name="" value="sql" id="sql" />
+            </li>
+        </ul>
+        
+        <input type="submit" value="Enviar" />
+
+
+
+    </form>
+</body>
+</html>
