@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contáctame</title>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="contacto.css">
 </head>
-<body>
+<body class="container">
+    <div class="form">
+    <h1>Contáctame <i class="fa-solid fa-id-card"></i></h1>
     <form action="">
         <p>
             <label for="nombre">Nombre y Apellido</label>
@@ -19,7 +24,7 @@
                 <input type="radio" name="sexo" value="hombre" />
             </li>
             <li>
-                <label for="sexo">Mujer</label>
+                <label id="sexo" for="sexo">Mujer</label>
                 <input type="radio" name="sexo" value="mujer" />
             </li>
         </ul>
@@ -44,21 +49,22 @@
         <label for="">Lenguajes trabajados</label>
         <ul>
             <li>
-                <label for="bailar">Javascript</label>
+                <label for="javascript">Javascript</label>
                 <input type="checkbox" name="" value="javascript" id="javascript" />
             </li>
             <li>
-                <label for="cantar">Python</label>
+                <label for="python">Python</label>
                 <input type="checkbox" name="" value="python" id="python" />
             </li>
             <li>
-                <label for="nadar">SQL</label>
+                <label for="sql">SQL</label>
                 <input type="checkbox" name="" value="sql" id="sql" />
             </li>
         </ul>
         
-        <input type="submit" value="Enviar" />
-
+        <input id="enviar" type="submit" value="Enviar" />
+    </div>
+    
 
 
     </form>

@@ -1,38 +1,66 @@
-.container {padding: 20px;
-    margin: 0;
+.container {
+    font-family: "M PLUS 1 Code", monospace;
+    background: rgb(27,27,27);
+    background: linear-gradient(90deg, rgba(27,27,27,1) 0%, rgba(55,55,55,1) 100%);
+    padding: 20px;
     background-color: black;
-    font-family: sans-serif;
-    color: bisque;
-}
-
-.titulo {background-color: gray;
-    color: bisque;
-    padding: 5px 25px;
-    width: max-content;
     }
 
-.favoritos {background-color: coral;
-    color:saddlebrown;
+h1 {
+    background: rgb(27,27,27);
+    background: linear-gradient(90deg, rgba(27,27,27,1) 0%, rgba(55,55,55,1) 100%);
+    border-radius: 5px;
+    color: bisque;
+    font-weight: 900;
+    padding: 5px 25px;
+    width: 480px;
+    text-align: center;
+    box-shadow: 10px 7px 20px rgb(61, 61, 61);
+    box-sizing: border-box;
+    }
+
+img{
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgb(61, 61, 61);
+    width: 480px;
+    height: 480px;
+}
+
+.favoritos {
+    background: rgb(27,27,27);
+    background: linear-gradient(90deg, rgba(27,27,27,1) 0%, rgb(59, 59, 59) 100%);
+    color: bisque;
+    border-radius: 15px 40px;
     font-weight: bold;
-    width: 300px;
-    padding: 20px;
+    width: 480px;
+    padding: 30px;
+    box-shadow: 10px 10px 25px rgb(61, 61, 61);
+    box-sizing: border-box;
 }
 
-h3 {color:brown;
+h3 {
+    color:brown;
     font-style: italic;
-    font-weight: bold; 
-}
+    font-weight: bold;
+    width: 480px;
+    text-align: justify;
+    }
 
-span {font-style: italic;
+span {
+    font-style: italic;
     font-size: 18px;
     color: brown;
 }
 
-#perfil {color: brown;
+#perfil {
+    color: brown;
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
 }
 
-.hobbies {width: 500px;
+.perfil {
+    width: 480px;
+    color: bisque;
+    text-align: justify;
 }

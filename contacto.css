@@ -1,0 +1,44 @@
+.container {
+    font-family: "M PLUS 1 Code", monospace;
+    background: rgb(27,27,27);
+    background: linear-gradient(90deg, rgba(27,27,27,1) 0%, rgba(55,55,55,1) 100%);
+    padding: 20px;
+    background-color: black;
+    }
+
+.form {
+    background: rgb(27,27,27);
+    background: linear-gradient(90deg, rgba(27,27,27,1) 0%, rgba(55,55,55,1) 100%);
+    padding: 40px;
+    width: 480px;
+    color: bisque;
+    border-radius: 25px;
+    box-shadow: 10px 10px 40px black;
+    font-size: 18px;
+}
+
+.form h1 {
+    margin: 0;
+    text-align: center;
+    }
+
+input {
+    border-radius: 5px;
+    background-color: rgb(99, 99, 99);
+    border: none;
+    color: bisque;
+    height: 20px;
+    padding: 5px 10px;
+    font-size: 18px;
+    width: 95%;
+    }
+
+#enviar {
+    padding: 5px 30px;
+    background-color: grey;
+    border: none;
+    box-shadow: 5px 5px 15px black;
+    width: max-content;
+    height: 30px;
+}
+
